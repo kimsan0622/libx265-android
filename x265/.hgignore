@@ -1,6 +1,6 @@
 syntax: glob
 doc/uncrustify/uncrustify.exe
-build/
+
 **.rej
 **.orig
 **.hevc
