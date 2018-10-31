@@ -110,6 +110,12 @@ const cpu_name_t cpu_names[] =
     { "", 0 },
 };
 
+// to fix an error: can't find x265::detect512 when the architexture of cpu isn't x86
+bool detect512()
+{
+    return(enable512);
+}
+
 #if X265_ARCH_X86
 
 extern "C" {
@@ -123,10 +129,10 @@ uint64_t PFX(cpu_xgetbv)(int xcr);
 #pragma warning(disable: 4309) // truncation of constant value
 #endif
 
-bool detect512()
-{
-    return(enable512);
-}
+// bool detect512()
+// {
+//     return(enable512);
+// }
 uint32_t cpu_detect(bool benableavx512 )
 {
 
