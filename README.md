@@ -45,7 +45,7 @@ cmake ../../../source \
   -DCMAKE_ANDROID_ARCH_ABI=arm64-v8a \
   -DCMAKE_ANDROID_NDK=${NDK_ROOT} \
   -DCMAKE_ANDROID_STL_TYPE=gnustl_static \
-  **-DENABLE_SHARED=0** \
+  -DENABLE_SHARED=0 \ # add this line.
   -DNEON_ANDROID=1
 
 sed -i '' 's/-lpthread/-pthread/' CMakeFiles/cli.dir/link.txt
