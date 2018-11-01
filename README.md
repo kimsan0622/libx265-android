@@ -23,3 +23,8 @@ Latest Android Studio doesn't support MIPS architecture anymore. Therefore, I re
 ```bash
     bash ./build.sh
 ```
+3. use the files in the build directory. each ABI folder has 3 kind of file.
+    * include file - x265.h
+    * library files - x265.so (shared lib), x265.a (static lib)
+    * executable file - x265 (HEVC encoder program)
+
