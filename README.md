@@ -35,7 +35,7 @@ Latest Android Studio doesn't support MIPS architecture anymore. Therefore, I re
     * executable file - x265 (HEVC encoder program)
 
 ## little tip
-if you want to use cli HEVC encoder program, I recommend that you use static library. If you just build it using that I uploaded, it will build the executable file with shared lib. But it's inconvinient, because you shoud add the shared library to library path. if you want to build executable file, you can just add simple flag **-DENABLE_SHARED=0** in each build scripts.
+if you want to use cli HEVC encoder program, I recommend that you use static library. If you just build it using that I uploaded, it will build the executable file with shared lib. But it's inconvinient, because you shoud add the shared library to library path. if you want to build executable file and use it, you can just add simple flag **-DENABLE_SHARED=0** in each build scripts. Of course, file size of executable file is bigger than before; 3.4 Mb(using shared lib) --> 6.5 Mb(using static lib).
 
 e.g.    build_script/arm64-v8a/build.sh
 ```bash
