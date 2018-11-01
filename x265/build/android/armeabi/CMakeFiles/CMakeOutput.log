@@ -1,0 +1,623 @@
+The target system is: Android - 26 - armv5te
+The host system is: Darwin - 18.0.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/3.10.1/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "/Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/3.10.1/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_960c9/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_960c9.dir/build.make CMakeFiles/cmTC_960c9.dir/build
+Building C object CMakeFiles/cmTC_960c9.dir/testCCompiler.c.o
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot  -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi  -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_960c9.dir/testCCompiler.c.o   -c /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_960c9
+/usr/local/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_960c9.dir/link.txt --verbose=1
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_960c9.dir/testCCompiler.c.o  -o cmTC_960c9 
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_57efb/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_57efb.dir/build.make CMakeFiles/cmTC_57efb.dir/build
+Building C object CMakeFiles/cmTC_57efb.dir/CMakeCCompilerABI.c.o
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot  -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi  -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_57efb.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.10.1/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_57efb
+/usr/local/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57efb.dir/link.txt --verbose=1
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc -v CMakeFiles/cmTC_57efb.dir/CMakeCCompilerABI.c.o  -o cmTC_57efb 
+Using built-in specs.
+COLLECT_GCC=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc
+COLLECT_LTO_WRAPPER=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper
+Target: arm-linux-androideabi
+Configured with: /Volumes/Android/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa --target=arm-linux-androideabi --host=x86_64-apple-darwin --build=x86_64-apple-darwin --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -lstdc++ -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa --with-sysroot=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-threads --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default
+Thread model: posix
+gcc version 4.9.x 20150123 (prerelease) (GCC) 
+COMPILER_PATH=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/:/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/:/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/
+LIBRARY_PATH=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/thumb/:/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/thumb/:/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/:/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm/usr/lib/
+COLLECT_GCC_OPTIONS='-march=armv5te' '-mthumb' '-mfloat-abi=soft' '-mtune=xscale' '-funwind-tables' '-D' '__ANDROID_API__=26' '-fexceptions' '-g' '-fPIE' '-pie' '-v' '-o' 'cmTC_57efb' '-mfpu=vfp' '-mtls-dialect=gnu'
+ /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2 -plugin /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so -plugin-opt=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper -plugin-opt=-fresolution=/var/folders/cl/yl7tt_gs76s8t1d8kb3bm03m0000gn/T//ccNLO4Pm.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm --eh-frame-hdr -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -pie -o cmTC_57efb /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm/usr/lib/crtbegin_dynamic.o -L/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/thumb -L/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/thumb -L/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x -L/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc -L/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -L/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm/usr/lib --gc-sections -z nocopyreloc CMakeFiles/cmTC_57efb.dir/CMakeCCompilerABI.c.o -lgcc -lc -ldl -lgcc /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm/usr/lib/crtend_android.o
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_57efb/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_57efb.dir/build.make CMakeFiles/cmTC_57efb.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_57efb.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot  -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi  -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_57efb.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.10.1/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_57efb]
+  ignore line: [/usr/local/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57efb.dir/link.txt --verbose=1]
+  ignore line: [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc -v CMakeFiles/cmTC_57efb.dir/CMakeCCompilerABI.c.o  -o cmTC_57efb ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper]
+  ignore line: [Target: arm-linux-androideabi]
+  ignore line: [Configured with: /Volumes/Android/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa --target=arm-linux-androideabi --host=x86_64-apple-darwin --build=x86_64-apple-darwin --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -lstdc++ -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa --with-sysroot=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-threads --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.x 20150123 (prerelease) (GCC) ]
+  ignore line: [COMPILER_PATH=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/:/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/:/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/]
+  ignore line: [LIBRARY_PATH=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/thumb/:/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/thumb/:/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/:/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=armv5te' '-mthumb' '-mfloat-abi=soft' '-mtune=xscale' '-funwind-tables' '-D' '__ANDROID_API__=26' '-fexceptions' '-g' '-fPIE' '-pie' '-v' '-o' 'cmTC_57efb' '-mfpu=vfp' '-mtls-dialect=gnu']
+  link line: [ /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2 -plugin /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so -plugin-opt=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper -plugin-opt=-fresolution=/var/folders/cl/yl7tt_gs76s8t1d8kb3bm03m0000gn/T//ccNLO4Pm.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm --eh-frame-hdr -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -pie -o cmTC_57efb /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm/usr/lib/crtbegin_dynamic.o -L/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/thumb -L/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/thumb -L/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x -L/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc -L/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -L/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm/usr/lib --gc-sections -z nocopyreloc CMakeFiles/cmTC_57efb.dir/CMakeCCompilerABI.c.o -lgcc -lc -ldl -lgcc /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm/usr/lib/crtend_android.o]
+    arg [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/var/folders/cl/yl7tt_gs76s8t1d8kb3bm03m0000gn/T//ccNLO4Pm.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-ldl] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_57efb] ==> ignore
+    arg [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/thumb] ==> dir [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/thumb]
+    arg [-L/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/thumb] ==> dir [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/thumb]
+    arg [-L/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x] ==> dir [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x]
+    arg [-L/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc] ==> dir [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc]
+    arg [-L/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> dir [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib]
+    arg [-L/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm/usr/lib] ==> dir [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm/usr/lib]
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_57efb.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-ldl] ==> lib [dl]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm/usr/lib/crtend_android.o] ==> ignore
+  collapse library dir [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/thumb] ==> [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/thumb]
+  collapse library dir [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/thumb] ==> [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/thumb]
+  collapse library dir [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x] ==> [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  collapse library dir [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc] ==> [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc]
+  collapse library dir [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib]
+  collapse library dir [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm/usr/lib] ==> [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm/usr/lib]
+  implicit libs: [gcc;c;dl;gcc]
+  implicit dirs: [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/thumb;/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/thumb;/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x;/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc;/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib;/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a651b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a651b.dir/build.make CMakeFiles/cmTC_a651b.dir/build
+Building C object CMakeFiles/cmTC_a651b.dir/feature_tests.c.o
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot  -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi  -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions  -g -fPIE   -std=c11 -o CMakeFiles/cmTC_a651b.dir/feature_tests.c.o   -c /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/feature_tests.c
+Linking C executable cmTC_a651b
+/usr/local/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a651b.dir/link.txt --verbose=1
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_a651b.dir/feature_tests.c.o  -o cmTC_a651b 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1493e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1493e.dir/build.make CMakeFiles/cmTC_1493e.dir/build
+Building C object CMakeFiles/cmTC_1493e.dir/feature_tests.c.o
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot  -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi  -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions  -g -fPIE   -std=c99 -o CMakeFiles/cmTC_1493e.dir/feature_tests.c.o   -c /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1493e
+/usr/local/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1493e.dir/link.txt --verbose=1
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_1493e.dir/feature_tests.c.o  -o cmTC_1493e 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_15f96/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_15f96.dir/build.make CMakeFiles/cmTC_15f96.dir/build
+Building C object CMakeFiles/cmTC_15f96.dir/feature_tests.c.o
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot  -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi  -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions  -g -fPIE   -std=c90 -o CMakeFiles/cmTC_15f96.dir/feature_tests.c.o   -c /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/feature_tests.c
+Linking C executable cmTC_15f96
+/usr/local/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15f96.dir/link.txt --verbose=1
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_15f96.dir/feature_tests.c.o  -o cmTC_15f96 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_21691/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_21691.dir/build.make CMakeFiles/cmTC_21691.dir/build
+Building CXX object CMakeFiles/cmTC_21691.dir/testCXXCompiler.cxx.o
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot   -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi  -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions -frtti  -g -fPIE   -o CMakeFiles/cmTC_21691.dir/testCXXCompiler.cxx.o -c /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_21691
+/usr/local/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21691.dir/link.txt --verbose=1
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm  -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions -frtti  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_21691.dir/testCXXCompiler.cxx.o  -o cmTC_21691  "/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a" 
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c64ed/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c64ed.dir/build.make CMakeFiles/cmTC_c64ed.dir/build
+Building CXX object CMakeFiles/cmTC_c64ed.dir/CMakeCXXCompilerABI.cpp.o
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot   -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi  -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions -frtti  -g -fPIE   -o CMakeFiles/cmTC_c64ed.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.10.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_c64ed
+/usr/local/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c64ed.dir/link.txt --verbose=1
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm  -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions -frtti  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc -v CMakeFiles/cmTC_c64ed.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c64ed  "/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a" 
+Using built-in specs.
+COLLECT_GCC=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++
+COLLECT_LTO_WRAPPER=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper
+Target: arm-linux-androideabi
+Configured with: /Volumes/Android/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa --target=arm-linux-androideabi --host=x86_64-apple-darwin --build=x86_64-apple-darwin --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -lstdc++ -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa --with-sysroot=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-threads --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default
+Thread model: posix
+gcc version 4.9.x 20150123 (prerelease) (GCC) 
+COMPILER_PATH=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/:/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/:/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/
+LIBRARY_PATH=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/thumb/:/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/thumb/:/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/:/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm/usr/lib/
+COLLECT_GCC_OPTIONS='-march=armv5te' '-mthumb' '-mfloat-abi=soft' '-mtune=xscale' '-funwind-tables' '-D' '__ANDROID_API__=26' '-fexceptions' '-frtti' '-g' '-fPIE' '-pie' '-v' '-o' 'cmTC_c64ed' '-mfpu=vfp' '-mtls-dialect=gnu'
+ /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2 -plugin /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so -plugin-opt=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper -plugin-opt=-fresolution=/var/folders/cl/yl7tt_gs76s8t1d8kb3bm03m0000gn/T//cciS5NHU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm --eh-frame-hdr -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -pie -o cmTC_c64ed /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm/usr/lib/crtbegin_dynamic.o -L/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/thumb -L/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/thumb -L/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x -L/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc -L/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -L/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm/usr/lib --gc-sections -z nocopyreloc CMakeFiles/cmTC_c64ed.dir/CMakeCXXCompilerABI.cpp.o /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a -lstdc++ -lm -lgcc -lc -ldl -lgcc /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm/usr/lib/crtend_android.o
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_c64ed/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c64ed.dir/build.make CMakeFiles/cmTC_c64ed.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_c64ed.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot   -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi  -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions -frtti  -g -fPIE   -o CMakeFiles/cmTC_c64ed.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.10.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_c64ed]
+  ignore line: [/usr/local/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c64ed.dir/link.txt --verbose=1]
+  ignore line: [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm  -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions -frtti  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc -v CMakeFiles/cmTC_c64ed.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c64ed  "/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a" ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper]
+  ignore line: [Target: arm-linux-androideabi]
+  ignore line: [Configured with: /Volumes/Android/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa --target=arm-linux-androideabi --host=x86_64-apple-darwin --build=x86_64-apple-darwin --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -lstdc++ -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa --with-sysroot=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-threads --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.x 20150123 (prerelease) (GCC) ]
+  ignore line: [COMPILER_PATH=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/:/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/:/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/]
+  ignore line: [LIBRARY_PATH=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/thumb/:/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/thumb/:/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/:/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=armv5te' '-mthumb' '-mfloat-abi=soft' '-mtune=xscale' '-funwind-tables' '-D' '__ANDROID_API__=26' '-fexceptions' '-frtti' '-g' '-fPIE' '-pie' '-v' '-o' 'cmTC_c64ed' '-mfpu=vfp' '-mtls-dialect=gnu']
+  link line: [ /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2 -plugin /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so -plugin-opt=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper -plugin-opt=-fresolution=/var/folders/cl/yl7tt_gs76s8t1d8kb3bm03m0000gn/T//cciS5NHU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm --eh-frame-hdr -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -pie -o cmTC_c64ed /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm/usr/lib/crtbegin_dynamic.o -L/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/thumb -L/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/thumb -L/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x -L/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc -L/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -L/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm/usr/lib --gc-sections -z nocopyreloc CMakeFiles/cmTC_c64ed.dir/CMakeCXXCompilerABI.cpp.o /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a -lstdc++ -lm -lgcc -lc -ldl -lgcc /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm/usr/lib/crtend_android.o]
+    arg [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/var/folders/cl/yl7tt_gs76s8t1d8kb3bm03m0000gn/T//cciS5NHU.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-ldl] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_c64ed] ==> ignore
+    arg [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/thumb] ==> dir [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/thumb]
+    arg [-L/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/thumb] ==> dir [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/thumb]
+    arg [-L/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x] ==> dir [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x]
+    arg [-L/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc] ==> dir [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc]
+    arg [-L/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> dir [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib]
+    arg [-L/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm/usr/lib] ==> dir [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm/usr/lib]
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_c64ed.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a] ==> lib [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a]
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-ldl] ==> lib [dl]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm/usr/lib/crtend_android.o] ==> ignore
+  collapse library dir [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/thumb] ==> [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/thumb]
+  collapse library dir [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/thumb] ==> [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/thumb]
+  collapse library dir [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x] ==> [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  collapse library dir [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc] ==> [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc]
+  collapse library dir [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib]
+  collapse library dir [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm/usr/lib] ==> [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm/usr/lib]
+  implicit libs: [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a;stdc++;m;gcc;c;dl;gcc]
+  implicit dirs: [/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/thumb;/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/thumb;/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x;/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc;/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib;/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c8ad4/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c8ad4.dir/build.make CMakeFiles/cmTC_c8ad4.dir/build
+Building CXX object CMakeFiles/cmTC_c8ad4.dir/feature_tests.cxx.o
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot   -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi  -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions -frtti  -g -fPIE   -std=c++14 -o CMakeFiles/cmTC_c8ad4.dir/feature_tests.cxx.o -c /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c8ad4
+/usr/local/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8ad4.dir/link.txt --verbose=1
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm  -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions -frtti  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_c8ad4.dir/feature_tests.cxx.o  -o cmTC_c8ad4  "/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a" 
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cdfcf/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cdfcf.dir/build.make CMakeFiles/cmTC_cdfcf.dir/build
+Building CXX object CMakeFiles/cmTC_cdfcf.dir/feature_tests.cxx.o
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot   -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi  -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions -frtti  -g -fPIE   -std=c++11 -o CMakeFiles/cmTC_cdfcf.dir/feature_tests.cxx.o -c /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_cdfcf
+/usr/local/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cdfcf.dir/link.txt --verbose=1
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm  -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions -frtti  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_cdfcf.dir/feature_tests.cxx.o  -o cmTC_cdfcf  "/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a" 
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e3bb2/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e3bb2.dir/build.make CMakeFiles/cmTC_e3bb2.dir/build
+Building CXX object CMakeFiles/cmTC_e3bb2.dir/feature_tests.cxx.o
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot   -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi  -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions -frtti  -g -fPIE   -std=c++98 -o CMakeFiles/cmTC_e3bb2.dir/feature_tests.cxx.o -c /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e3bb2
+/usr/local/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3bb2.dir/link.txt --verbose=1
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm  -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions -frtti  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_e3bb2.dir/feature_tests.cxx.o  -o cmTC_e3bb2  "/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a" 
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ec5de/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ec5de.dir/build.make CMakeFiles/cmTC_ec5de.dir/build
+Building C object CMakeFiles/cmTC_ec5de.dir/CheckIncludeFiles.c.o
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot  -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi  -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_ec5de.dir/CheckIncludeFiles.c.o   -c /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_ec5de
+/usr/local/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec5de.dir/link.txt --verbose=1
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_ec5de.dir/CheckIncludeFiles.c.o  -o cmTC_ec5de 
+
+
+Performing C++ SOURCE FILE Test CC_HAS_NO_STRICT_OVERFLOW succeeded with the following output:
+Change Dir: /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_94029/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_94029.dir/build.make CMakeFiles/cmTC_94029.dir/build
+Building CXX object CMakeFiles/cmTC_94029.dir/src.cxx.o
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot   -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi  -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions -frtti -DCC_HAS_NO_STRICT_OVERFLOW -g -fPIE   -Wno-strict-overflow -o CMakeFiles/cmTC_94029.dir/src.cxx.o -c /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_94029
+/usr/local/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94029.dir/link.txt --verbose=1
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm  -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions -frtti -DCC_HAS_NO_STRICT_OVERFLOW -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_94029.dir/src.cxx.o  -o cmTC_94029  "/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a" 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CC_HAS_NO_NARROWING succeeded with the following output:
+Change Dir: /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1faba/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1faba.dir/build.make CMakeFiles/cmTC_1faba.dir/build
+Building CXX object CMakeFiles/cmTC_1faba.dir/src.cxx.o
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot   -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi  -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions -frtti -DCC_HAS_NO_NARROWING -g -fPIE   -Wno-narrowing -o CMakeFiles/cmTC_1faba.dir/src.cxx.o -c /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1faba
+/usr/local/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1faba.dir/link.txt --verbose=1
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm  -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions -frtti -DCC_HAS_NO_NARROWING -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_1faba.dir/src.cxx.o  -o cmTC_1faba  "/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a" 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CC_HAS_NO_ARRAY_BOUNDS succeeded with the following output:
+Change Dir: /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_82cd2/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_82cd2.dir/build.make CMakeFiles/cmTC_82cd2.dir/build
+Building CXX object CMakeFiles/cmTC_82cd2.dir/src.cxx.o
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot   -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi  -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions -frtti -DCC_HAS_NO_ARRAY_BOUNDS -g -fPIE   -Wno-array-bounds -o CMakeFiles/cmTC_82cd2.dir/src.cxx.o -c /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_82cd2
+/usr/local/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82cd2.dir/link.txt --verbose=1
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm  -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions -frtti -DCC_HAS_NO_ARRAY_BOUNDS -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_82cd2.dir/src.cxx.o  -o cmTC_82cd2  "/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a" 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CC_HAS_FAST_MATH succeeded with the following output:
+Change Dir: /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_78b58/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_78b58.dir/build.make CMakeFiles/cmTC_78b58.dir/build
+Building CXX object CMakeFiles/cmTC_78b58.dir/src.cxx.o
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot   -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi  -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions -frtti -DCC_HAS_FAST_MATH -g -fPIE   -ffast-math -o CMakeFiles/cmTC_78b58.dir/src.cxx.o -c /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_78b58
+/usr/local/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78b58.dir/link.txt --verbose=1
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm  -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions -frtti -DCC_HAS_FAST_MATH -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_78b58.dir/src.cxx.o  -o cmTC_78b58  "/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a" 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CC_HAS_FNO_EXCEPTIONS_FLAG succeeded with the following output:
+Change Dir: /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f74da/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f74da.dir/build.make CMakeFiles/cmTC_f74da.dir/build
+Building CXX object CMakeFiles/cmTC_f74da.dir/src.cxx.o
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot   -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi  -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions -frtti -DCC_HAS_FNO_EXCEPTIONS_FLAG -g -fPIE   -fno-exceptions -o CMakeFiles/cmTC_f74da.dir/src.cxx.o -c /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f74da
+/usr/local/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f74da.dir/link.txt --verbose=1
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm  -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions -frtti -DCC_HAS_FNO_EXCEPTIONS_FLAG -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_f74da.dir/src.cxx.o  -o cmTC_f74da  "/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a" 
+
+Source file was:
+int main() { return 0; }
+Determining if the strtok_r exist passed with the following output:
+Change Dir: /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a2c23/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a2c23.dir/build.make CMakeFiles/cmTC_a2c23.dir/build
+Building C object CMakeFiles/cmTC_a2c23.dir/CheckSymbolExists.c.o
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot  -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi  -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_a2c23.dir/CheckSymbolExists.c.o   -c /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a2c23
+/usr/local/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2c23.dir/link.txt --verbose=1
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_a2c23.dir/CheckSymbolExists.c.o  -o cmTC_a2c23 
+
+File /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtok_r
+  return ((int*)(&strtok_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if files getopt.h exist passed with the following output:
+Change Dir: /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e2a85/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e2a85.dir/build.make CMakeFiles/cmTC_e2a85.dir/build
+Building C object CMakeFiles/cmTC_e2a85.dir/CheckIncludeFiles.c.o
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot  -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi  -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_e2a85.dir/CheckIncludeFiles.c.o   -c /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_e2a85
+/usr/local/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2a85.dir/link.txt --verbose=1
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/platforms/android-26/arch-arm -march=armv5te -mthumb -msoft-float -mtune=xscale -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_e2a85.dir/CheckIncludeFiles.c.o  -o cmTC_e2a85 
+
+

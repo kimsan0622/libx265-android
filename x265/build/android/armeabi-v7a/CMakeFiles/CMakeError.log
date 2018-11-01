@@ -1,0 +1,43 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot open crtbegin_dynamic.o: No such file or directory
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot open crtend_android.o: No such file or directory
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot find -lc
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot find -ldl
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot open crtbegin_dynamic.o: No such file or directory
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot open crtend_android.o: No such file or directory
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot find -lstdc++
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot find -lm
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot find -lc
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot find -ldl
+collect2: error: ld returned 1 exit status
+
+
+Performing C++ SOURCE FILE Test CC_HAS_STACK_REALIGN failed with the following output:
+Change Dir: /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4b37f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4b37f.dir/build.make CMakeFiles/cmTC_4b37f.dir/build
+Building CXX object CMakeFiles/cmTC_4b37f.dir/src.cxx.o
+/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot   -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include -isystem /Users/sankim/lib_build/ffmpeg-android/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=vfpv3-d16 -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=26 -fexceptions -frtti -DCC_HAS_STACK_REALIGN -g -fPIE   -mstackrealign -o CMakeFiles/cmTC_4b37f.dir/src.cxx.o -c /Users/sankim/lib_build/libx265-android/x265/build/android/armeabi-v7a/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: unrecognized command line option '-mstackrealign'
+make[1]: *** [CMakeFiles/cmTC_4b37f.dir/src.cxx.o] Error 1
+make: *** [cmTC_4b37f/fast] Error 2
+
+Source file was:
+int main() { return 0; }

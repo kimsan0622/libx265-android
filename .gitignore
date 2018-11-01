@@ -1,2 +1,2 @@
-build/
-x265/build/android/
+./build/*
+./x265build/android/*
