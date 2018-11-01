@@ -28,5 +28,9 @@ Latest Android Studio doesn't support MIPS architecture anymore. Therefore, I re
     * library files - x265.so (shared lib), x265.a (static lib)
     * executable file - x265 (HEVC encoder program)
 
+## x265 source code changes
+commit log
+cda6b5eac8f293b7f8264e98b722fd4fb252b072
+
 ### contact
 kimsan0622@khu.ac.kr
