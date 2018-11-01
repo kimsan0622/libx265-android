@@ -56,6 +56,9 @@ make -j${NUMBER_OF_CORES}
 
 make DESTDIR=${OUTPUT_PREFIX}/arm64-v8a install
 ```
+## test in android using adb
+
+![Alt Text](https://github.com/kimsan0622/libx265-android/blob/master/screenshot/test.gif)
 
 ## x265 source code changes
 commit log
