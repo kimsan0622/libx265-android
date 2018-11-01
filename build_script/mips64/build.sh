@@ -9,5 +9,5 @@ sed -i '' 's/-lpthread/-pthread/' CMakeFiles/cli.dir/link.txt
 sed -i '' 's/-lpthread/-pthread/' CMakeFiles/x265-shared.dir/link.txt
 sed -i '' 's/-lpthread/-pthread/' CMakeFiles/x265-static.dir/link.txt
 
-make -j4
+make -j${NUMBER_OF_CORES}
 make DESTDIR=${OUTPUT_PREFIX}/mips64 install

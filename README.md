@@ -19,11 +19,17 @@ Latest Android Studio doesn't support MIPS architecture anymore. Therefore, I re
 ```bash
     export NDK_ROOT=path/to/your/ndk/root/dir
 ```
-2. running build.sh
+2. change the build.sh file.
+```bash
+    export ANDROID_API_VERSION=26 # chose android platform version. I recommend a version higher than 21.
+    export NUMBER_OF_CORES=4 # set number of cores which you use to compile. it's depend on your cpu of your host computer.
+    export OUTPUT_PREFIX=$(pwd)/build # set the output prefix. default directory is ./build
+```
+3. running build.sh
 ```shell
     bash ./build.sh
 ```
-3. use the files in the build directory. each ABI folder has 3 kind of file.
+4. use the files in the build directory. each ABI folder has 3 kind of file.
     * include files - x265.h, x265_config.h (Of course, all include files are the same.)
     * library files - x265.so (shared lib), x265.a (static lib)
     * executable file - x265 (HEVC encoder program)
