@@ -22,7 +22,7 @@ Latest Android Studio doesn't support MIPS architecture anymore. Therefore, I re
 2. change the build.sh file.
 ```bash
     export ANDROID_API_VERSION=26 # chose android platform version. I recommend a version higher than 21.
-    export NUMBER_OF_CORES=4 # set number of cores which you use to compile. it's depend on your cpu of your host computer.
+    export NUMBER_OF_CORES=4 # set the number of cores which you want to use for compile. it depends on CPU of your host computer.
     export OUTPUT_PREFIX=$(pwd)/build # set the output prefix. default directory is ./build
 ```
 3. running build.sh
