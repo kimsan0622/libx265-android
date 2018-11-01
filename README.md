@@ -16,10 +16,10 @@ Latest Android Studio doesn't support MIPS architecture anymore. Therefore, I re
 ## how to build this?
 
 1. set the NDK_ROOT variable.
-'''bash
+```bash
     export NDK_ROOT=path/to/your/ndk/root/dir
-'''
+```
 2. running build.sh
-'''bash
+```bash
     bash ./build.sh
-'''
+```
