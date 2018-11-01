@@ -34,6 +34,29 @@ Latest Android Studio doesn't support MIPS architecture anymore. Therefore, I re
     * library files - x265.so (shared lib), x265.a (static lib)
     * executable file - x265 (HEVC encoder program)
 
+## little tip
+if you want to use cli HEVC encoder program, I recommend that you use static library. If you just build it using that I uploaded, it will build the executable file with shared lib. But it's inconvinient, because you shoud add the shared library to library path. if you want to build executable file, you can just add simple flag **-DENABLE_SHARED=0** in each build scripts.
+
+e.g.    build_script/arm64-v8a/build.sh
+```bash
+cmake ../../../source \
+  -DCMAKE_SYSTEM_NAME=Android \
+  -DCMAKE_SYSTEM_VERSION=${ANDROID_API_VERSION} \
+  -DCMAKE_ANDROID_ARCH_ABI=arm64-v8a \
+  -DCMAKE_ANDROID_NDK=${NDK_ROOT} \
+  -DCMAKE_ANDROID_STL_TYPE=gnustl_static \
+  **-DENABLE_SHARED=0** \
+  -DNEON_ANDROID=1
+
+sed -i '' 's/-lpthread/-pthread/' CMakeFiles/cli.dir/link.txt
+sed -i '' 's/-lpthread/-pthread/' CMakeFiles/x265-shared.dir/link.txt
+sed -i '' 's/-lpthread/-pthread/' CMakeFiles/x265-static.dir/link.txt
+
+make -j${NUMBER_OF_CORES}
+
+make DESTDIR=${OUTPUT_PREFIX}/arm64-v8a install
+```
+
 ## x265 source code changes
 commit log
 * [cda6b5eac8f293b7f8264e98b722fd4fb252b072](https://github.com/kimsan0622/libx265-android/commit/cda6b5eac8f293b7f8264e98b722fd4fb252b072)
