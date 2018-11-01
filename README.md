@@ -30,7 +30,7 @@ Latest Android Studio doesn't support MIPS architecture anymore. Therefore, I re
 
 ## x265 source code changes
 commit log
-cda6b5eac8f293b7f8264e98b722fd4fb252b072
+* [cda6b5eac8f293b7f8264e98b722fd4fb252b072](https://github.com/kimsan0622/libx265-android/commit/cda6b5eac8f293b7f8264e98b722fd4fb252b072)
 
 ### contact
 kimsan0622@khu.ac.kr
